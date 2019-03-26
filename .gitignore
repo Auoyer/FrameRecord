@@ -1,0 +1,17 @@
+*.pdb
+*.dll
+*.ide
+*.ide-shm
+*.ide.wal
+*.dll
+*.pdb
+bin/
+obj/
+*.suo
+*.lock
+*.ide-wal
+*.config
+*.user
+Properties/
+.vs/
+packages/
