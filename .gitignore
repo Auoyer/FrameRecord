@@ -10,8 +10,6 @@ obj/
 *.suo
 *.lock
 *.ide-wal
-*.config
 *.user
-Properties/
 .vs/
 packages/
