@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+    <job>
+      <name>DoSomethingJob</name>
+      <group>jobGroup</group>
+      <description>测试任务</description>
+      <job-type>QuartzAPI2.Jobs.DoSomething, QuartzAPI2</job-type>
+    </job>
+    <trigger>
+      <cron>
+        <name>DoSomethingJobTrigger</name>
+        <group>triggerGroup</group>
+        <description>测试任务</description>
+        <job-name>DoSomethingJob</job-name>
+        <job-group>jobGroup</job-group>
+        <cron-expression>0/2 * * * * ? </cron-expression>
+      </cron>
+    </trigger>
+  </schedule>
+</job-scheduling-data>
