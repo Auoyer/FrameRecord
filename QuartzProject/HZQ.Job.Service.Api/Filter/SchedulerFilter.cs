@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Filters;
 using HZQ.Job.Model;
+using Newtonsoft.Json;
 
 namespace HZQ.Job.Service.Api.Filter
 {

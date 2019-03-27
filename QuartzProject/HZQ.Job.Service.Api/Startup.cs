@@ -1,12 +1,7 @@
-﻿using Microsoft.Owin;
-using Owin;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http.Formatting;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net.Http.Formatting;
 using System.Web.Http;
+using Microsoft.Owin;
+using Owin;
 
 [assembly: OwinStartup(typeof(HZQ.Job.Service.Api.Startup))]
 namespace HZQ.Job.Service.Api

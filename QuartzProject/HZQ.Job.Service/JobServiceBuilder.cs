@@ -20,5 +20,15 @@ namespace HZQ.Job.Service
         {
             return new ProduceJobService();
         }
+
+
+        /// <summary>
+        /// 创建一个测试服务
+        /// </summary>
+        /// <returns></returns>
+        public static IJobService BuilderTest()
+        {
+            return new TestJobService();
+        }
     }
 }
