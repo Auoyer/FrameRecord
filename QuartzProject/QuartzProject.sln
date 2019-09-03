@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzServiceCrystal2", "Qu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzServiceCrystal3", "QuartzServiceCrystal3\QuartzServiceCrystal3.csproj", "{C03C51F4-414B-44DE-A044-68F275212AB7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Quartz.core", "Quartz.core", "{BE020627-E97C-4156-B4EB-81979217C9BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz_Core", "Quartz_Core\Quartz_Core.csproj", "{575CE33A-AFF0-4E2C-9334-237A2FF9CC37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,10 @@ Global
 		{C03C51F4-414B-44DE-A044-68F275212AB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C03C51F4-414B-44DE-A044-68F275212AB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C03C51F4-414B-44DE-A044-68F275212AB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575CE33A-AFF0-4E2C-9334-237A2FF9CC37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575CE33A-AFF0-4E2C-9334-237A2FF9CC37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575CE33A-AFF0-4E2C-9334-237A2FF9CC37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575CE33A-AFF0-4E2C-9334-237A2FF9CC37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,6 +140,7 @@ Global
 		{89BBE0A7-1F9C-4937-8E48-FB43CB43040A} = {20D6EF8A-A8B7-47DA-981C-3BFAFE5CC08D}
 		{00D5BCCA-6E32-4B31-BA8C-23C09F18543B} = {20D6EF8A-A8B7-47DA-981C-3BFAFE5CC08D}
 		{C03C51F4-414B-44DE-A044-68F275212AB7} = {20D6EF8A-A8B7-47DA-981C-3BFAFE5CC08D}
+		{575CE33A-AFF0-4E2C-9334-237A2FF9CC37} = {BE020627-E97C-4156-B4EB-81979217C9BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBD50275-B823-42E2-BF0A-812644D9C442}
