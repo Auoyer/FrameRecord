@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CrystalQuartz.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -26,6 +27,8 @@ namespace Quartz_Core
         {
             // 注册Quartz定时任务
             JobScheduler.Start();
+            app.UseCrystalQuartz(() => JobScheduler.scheduler); // CrystalQuartz任务调度地址:http://ip:port/quartz
+
             // 注册Nlog
             loggerFactory.AddNLog();
             env.ConfigureNLog("nlog.config");
